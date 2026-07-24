@@ -1,7 +1,12 @@
 aid: buybuddy
 name: BuyBuddy
-description: BuyBuddy is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: BuyBuddy is an AI-powered retail merchandising platform positioned as an "AI Merchandiser
+  that tracks, thinks & acts for you." It automates in-store operations for retailers and brands, including
+  planogram compliance and shelf monitoring via computer vision, stockout prevention, product placement
+  optimization, dynamic pricing and promotions, demand forecasting, store transfers, and shopper-behavior
+  analysis through smart tags. BuyBuddy is a portfolio company of 500 Global. This profile is maintained
+  in the API Evangelist network; at time of enrichment BuyBuddy publishes no public developer API,
+  documentation, SDK, or specification surface, so this remains a company-level profile.
 url: https://raw.githubusercontent.com/api-evangelist/buybuddy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://framerusercontent.com/images/9gTNCFS2islcGtyd4NrHCFk2xg.svg
 tags:
 - Company
+- Retail
+- Merchandising
+- Artificial Intelligence
+- Computer Vision
+- Inventory
+- Demand Forecasting
+- Pricing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/buybuddy-domain-security.yml
 - type: Website
   url: https://buybuddy.co
+- type: Blog
+  url: https://www.buybuddy.co/blog
+- type: Login
+  url: https://basket.buybuddy.co/login/
+- type: LLMsTxt
+  url: llms/buybuddy-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

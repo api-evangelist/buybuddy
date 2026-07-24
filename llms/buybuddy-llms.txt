@@ -1,0 +1,17 @@
+# BuyBuddy
+
+> BuyBuddy is an AI-powered retail merchandising platform ("AI Merchandiser that tracks, thinks & acts for you") that automates in-store operations for retailers and brands — planogram compliance and shelf monitoring via computer vision, stockout prevention, product placement optimization, dynamic pricing and promotions, demand forecasting, store transfers, and shopper-behavior analysis through smart tags. BuyBuddy is a portfolio company of 500 Global. As of this profile no public developer API, documentation, or specification surface has been published; the entry is maintained as a company profile in the API Evangelist network.
+
+## Company
+- Website: https://www.buybuddy.co
+- Blog: https://www.buybuddy.co/blog
+- Sign in (customer app): https://basket.buybuddy.co/login/
+- Get a demo: https://www.buybuddy.co/get-a-demo
+
+## Social
+- LinkedIn: https://www.linkedin.com/company/buy-buddy
+- Twitter/X: https://twitter.com/heybuybuddy
+
+## Notes
+- No public OpenAPI, AsyncAPI, GraphQL, SDK, MCP server, or developer portal discovered at time of enrichment.
+- An internal service host (api.buybuddy.co) is reachable but exposes no public specification or documentation.
