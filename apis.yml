@@ -45,7 +45,7 @@ tags:
 - Retail
 - Merchandising
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Inventory
 - Demand Forecasting
 - Pricing
@@ -58,6 +58,7 @@ tags_raw:
 - Inventory
 - Demand Forecasting
 - Pricing
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
